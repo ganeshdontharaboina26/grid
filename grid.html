@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border: 3px solid pink;
+            padding: 20px;
+            background-color: orange;
+            display: grid;
+        /*height: 600px;
+        */
+
+            
+            grid-template-columns: repeat(auto-fill ,minmax(300px,80px));
+            grid-template-rows: repeat(6,80px);
+            row-gap: 3px;
+            column-gap: 3px;
+            justify-content: space-around;
+
+
+        }
+        div{
+            background-color: brown;
+        }
+        .one{
+            background-color: pink;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+        }
+        .two{
+
+            background-color: red;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .three{
+            background-color: aliceblue;
+            
+
+        }
+        .four{
+            background-color: yellow;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .five{
+            background-color: blue;
+
+            
+        }
+        .six{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+    </div>
+</body>
+</html>

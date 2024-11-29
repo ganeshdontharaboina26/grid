@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            border: 2px solid orange;
+            padding: 10px;
+            display: grid;
+            background-color: aqua;
+            grid-template-areas: 
+            "area1 area1 area2"
+            "area1 area1 area3"
+            "area4 area5 area6";
+            gap: 5px;
+            grid-template-rows: 45px 45px 45px 45px 45px 45px;
+            grid-template-columns: 60px 60px 60px;
+            text-align: center;
+            height: 200px;
+
+
+        }
+        .two{
+            background-color: orange;
+            grid-area: area1;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+        .three{
+            background-color: blue;
+            grid-area: area2;
+        }
+        .four{
+            background-color: yellow;
+            grid-area: area3;
+        }
+        .five{
+            background-color: violet;
+            grid-area: area4;
+        }
+        .six{
+            background-color: grey;
+            grid-area: area5;
+        }
+        .seven{
+            background-color: green;
+            grid-area: area6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">one</div>
+        <div class="three">two</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+
+        <div class="six">six</div>
+        <divm class="seven">seven</div>
+    </div>
+</body>
+</html>
