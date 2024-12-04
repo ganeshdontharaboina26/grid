@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a1{
+            border: 2px solid orange;
+            
+            background-color: aqua;
+            height: 250px;
+            width: 250px;
+            display: grid;
+            grid-template-areas: "a2  a3 a4"
+                                  "a5 a6 a6"
+                                  "a7 a6 a6";
+                                  gap: 3px;
+
+
+
+        }
+        .a2{
+            border: 2px solid orange;
+            background-color: black;
+            grid-area: a2;
+
+        }
+        .a3{
+            border: 2px solid pink;
+            background-color: pink;
+            grid-area: a3;
+        }
+        .a4{
+            border: 2px solid green ;
+            background-color: green;
+            grid-area: a4;
+        }
+        .a5{
+            border: 2px solid yellow;
+            background-color: yellow;
+            grid-area: a5;
+        }
+        .a6{
+            border: 2px solid red ;
+            background-color: red;
+            grid-area: a6;
+        }
+        .a7{
+            border: 2px solid blue;
+            background-color: blue;
+            grid-area: a7;
+        }
+        .a8{
+            border: 2px solid orange;
+            background-color: black;
+            height: 235px;
+            width: 263px;
+            margin-top: 30px;
+            display: grid;
+            grid-template-areas: "a9 a10 a10 a11 a12 a13 a14"
+                                "a15 a16 a16 a16 a12 a13 a14"
+                                "a15 a16 a16 a16 a12 a13 a14";
+         gap: 5px;
+           grid-template-rows: 75px 75px  75px; 
+            grid-template-columns: 40px 40px 40px 20px 40px 40px 10px;   }
+        .a9{
+            background-color: aqua;
+            grid-area: a9;
+        }
+        .a10{
+            background-color: red;
+            grid-area: a10;
+
+
+        }
+        .a11{
+            background-color: brown;
+            grid-area: a11;
+        }
+        .a12{
+            background-color: antiquewhite;
+            grid-area: a12;
+        }
+        .a13{
+            background-color: yellow;
+            grid-area: a13;
+        }
+        .a14{
+            background-color: blue;
+            grid-area: a14;
+        }
+        .a15{
+            background-color: palevioletred;
+            grid-area: a15;
+        }
+        .a16{
+            background-color: gray;
+            grid-area: a16;
+        }
+       .b1{
+        border: 2px solid orange;
+        background: black;
+        height: 250px;
+        width: 250px;
+        display: grid;
+        margin-top: 30px;
+        grid-template-areas: "b2 b3 b3 b4"
+                             "b2 b5 b6 b7"
+                             "b2 b8 b9 b7"  
+                                      ;
+                                      gap: 5px;
+       }
+       .b2{
+        background-color: red;
+        grid-area: b2;
+       }
+       .b3{
+        background-color: green;
+        grid-area: b3;
+       }
+       .b4{
+        background-color: palevioletred;
+        grid-area: b4;
+       }
+       .b5{
+        background-color: aqua;
+        grid-area: b5;
+       }
+       .b6{
+        background-color: bisque;
+        grid-area: b6;
+       }
+       .b7{
+        background-color: blue;
+        grid-area: b7;
+       }
+       .b8{
+        background-color: orange;
+        grid-area: b8;
+       }
+       .b9{
+        background-color: gray;
+        grid-area: b9;
+       }
+
+
+    </style>
+</head>
+<body>
+    <h2>Grid template areas,box-sizing</h2>
+    <div class="a1">
+        <div class="a2"></div>
+        <div class="a3"></div>
+        <div class="a4"></div>
+        <div class="a5"></div>
+        <div class="a6"></div>
+        <div class="a7"></div>
+        
+    </div>
+    <div class="a8">
+        <div class="a9"></div>
+        <div class="a10"></div>
+        <div class="a11"></div>
+        <div class="a12"></div>
+        <div class="a13"></div>
+        <div class="a14"></div>
+        <div class="a15"></div>
+        <div class="a16"></div>
+    </div>
+    <div class="b1">
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+        <div class="b5"></div>
+        <div class="b6"></div>
+        <div class="b7"></div>
+        <div class="b8"></div>
+        <div class="b9"></div>
+    </div>
+</body>
+</html>
